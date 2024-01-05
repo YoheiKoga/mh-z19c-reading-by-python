@@ -52,7 +52,7 @@ if __name__ == "__main__":
     try:
         while True:
             read_co2_concentration()
-            time.sleep(2)  # 必要に応じて調整
+            time.sleep(2)
     except KeyboardInterrupt:
-        print("プログラムを終了します")
+        print("program stopped")
         ser.close()
